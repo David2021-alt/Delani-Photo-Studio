@@ -1,0 +1,42 @@
+.icon-box {
+    width: 700px;
+    margin: 100px;
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    float: left;
+    list-style: none;
+}
+
+li i.fa{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px;
+    solid#ff0090:;
+    margin-left: 5px;
+    transition: 5s;
+    -webkit-transition: 5s;
+    -moz-transition: 5s;
+    -ms-transition: 5s;
+    -o-transition: 5s;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+li i.fa:hover{
+background: greenyellow;
+color: white;
+
+
+}
