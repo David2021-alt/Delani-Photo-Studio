@@ -194,12 +194,17 @@ li {
     color: #fff;
     border-radius: 50%;
     transition: 5s;
-    background-color: green;
+    background-color: none;
     
 }
 li:hover {
-    color: #292929;
-    border: 1px soli #292929;
+    color: greenyellow;
+    border-color: black;
     transition: .5s;
-    
-    
+}
+.footer {
+text-align: center;
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: honeydew;
+}
