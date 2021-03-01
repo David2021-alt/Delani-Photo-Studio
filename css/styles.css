@@ -122,7 +122,7 @@ header {
 }
 .Contact {
     background-image: url(/css/Images/c_image.jpg);
-    height: 500px;
+    height: 100vh;
     text-align: center;
     color: white;
     text-emphasis: none;
@@ -145,5 +145,61 @@ header {
     
 }
 .status.success {
-    color: yellowgreen;
+    /* color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px; */
 }
+#Status.success {
+    /* background-color: springgreen; */
+
+}
+#Status.Success {
+    background-color: rgb(4, 122, 63);
+    animation: status 4s ease delay forwads;
+    -webkit-animation: status 4s ease delay forwads;
+}
+/* #status.error {
+background-color: red; */
+}
+
+@keyframes status{
+    0%{
+        opacity: 1;
+    pointer-events: all;
+    }
+    90%{
+        opacity: 0;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    
+}
+li {
+    list-style: none;
+    margin: 10px 30;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border-radius: 50%;
+    transition: 5s;
+    background-color: green;
+    
+}
+li:hover {
+    color: #292929;
+    border: 1px soli #292929;
+    transition: .5s;
+    
+    
