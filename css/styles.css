@@ -45,7 +45,7 @@ header {
     
 }
 .Nav-links:hover {
-    background-color: black;
+    /* background-color: black; */
     flex: none;
     text-align: center;
 
@@ -214,4 +214,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
     mask-position: center;
 }
-
+.Design-Icons {
+    flex: content;
+    align-self: center;
+    align-items: center;
+}
