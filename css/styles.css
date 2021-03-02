@@ -8,7 +8,6 @@
     display: block;
     text-decoration: none;
     text-align: left;
-    background: #594848;
     font-size: 17px;
     color: white;
     padding: 20px 10px;
@@ -42,12 +41,12 @@ header {
 }
 
 .Logo-container:hover {
-    background-color: turquoise;
+    background-color: 
     
 }
 .Nav-links:hover {
-    background-color: teal;
-    flex: auto;
+    background-color: black;
+    flex: none;
     text-align: center;
 
 }
@@ -93,7 +92,7 @@ header {
 
 }
 .image-1 {
-    text-align: left;
+    text-align: justify;
 
 }
 .image-2 {
@@ -110,6 +109,8 @@ header {
     color: red;
     font-size: 50px;
     background-position-y: 0ch;
+    image-orientation: from-image;
+    text-size-adjust: 10px;
 }
 .portfolio:hover {
     background-color: slategrey;
@@ -117,8 +118,8 @@ header {
 
 }
 .work.images {
-
-    size: 1px;
+text-align: justify;
+    size: 4px;
 }
 .Contact {
     background-image: url(/css/Images/c_image.jpg);
@@ -157,7 +158,7 @@ header {
     -o-border-radius: 8px; */
 }
 #Status.success {
-    /* background-color: springgreen; */
+    background-color: springgreen;
 
 }
 #Status.Success {
@@ -194,17 +195,23 @@ li {
     color: #fff;
     border-radius: 50%;
     transition: 5s;
-    background-color: none;
+    
     
 }
 li:hover {
     color: greenyellow;
-    border-color: black;
+    
     transition: .5s;
 }
 .footer {
 text-align: center;
 font-size: x-large;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-background-color: honeydew;
+
 }
+.First.image {
+    align-items: center;
+    text-align: justify;
+    mask-position: center;
+}
+
