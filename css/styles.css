@@ -36,6 +36,7 @@ header {
 
 .Logo-container, .Nav-links, .header {
     flex: auto;
+    font-style: normal;
     
 
 }
