@@ -112,6 +112,7 @@ header {
     background-position-y: 0ch;
     image-orientation: from-image;
     text-size-adjust: 10px;
+    background-color: khaki;
 }
 .portfolio:hover {
     background-color: slategrey;
